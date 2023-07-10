@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+    <script src="https://kit.fontawesome.com/33e495fb35.js" crossorigin="anonymous"></script>
+    <link rel = 'stylesheet' href = '/style.css'>
+</head>
+<body>
+    
+      
+      <div class = 'container'>
+                <div class="card">
+                    <img src="img/choccolate_cake.jpg" alt="">
+                    <div class="card-body">
+                      <h3 class="card-title">Choccolate Cake</h3>
+                      <h4 class="card-text">$100</h4>
+                      <a class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+
+                <div class="card">
+                    <img src="img/green_shoe.jpg" alt="">
+                    <div class="card-body">
+                      <h3 class="card-title">Green Shoe</h3>
+                      <h4 class="card-text">$80</h4>
+                      <a  class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+
+                <div class="card">
+                    <img src="img/hamburger.jpg"alt="">
+                    <div class="card-body">
+                      <h3 class="card-title">Hamburger</h3>
+                      <h4 class="card-text">$50</h4>
+                      <a class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+                  
+                <div class="card">
+                    <img src="img/pink_shoe.jpg">
+                    <div class="card-body">
+                      <h3 class="card-title">Pink Shoe</h3>
+                      <h4 class="card-text">$100</h4>
+                      <a class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+                  
+                <div class="card">
+                    <img src="img/shirt.jpg">
+                    <div class="card-body">
+                      <h3 class="card-title">T Shirt</h3>
+                      <h4 class="card-text">$30</h4>
+                      <a class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+
+                <div class="card" >
+                    <img src="img/strawberry_cake.jpg">
+                    <div class="card-body">
+                      <h3 class="card-title">Strawberry Cake</h3>
+                      <h4 class="card-text">$100</h4>
+                      <a class="addcart">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th ></th>
+                    <th ><h3>ITEM</h3></th>
+                    <th ></th>
+                    <th ><h3>PRICE</h3></th>
+                    <th><h3>QUANTITY</h3></th>
+                    <th ><h3>TOTAL</h3></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input class="checkbox" type="checkbox"></td>
+                    <td><img class="img" src="img/strawberry_cake.jpg"  alt=""></td>
+                    <td><h3 class = "item-name">Strawberry Cake</h3></td>
+                    <td class="item-price"><h3>$100</h3></td>
+                    <td><input type = 'number' class = 'num' value = '1'></td>
+                    <td class="total-price"><h3>$100</h3></td>
+                    <td><button class="button" type="button">Remove</button></td>
+                </tr>
+          
+
+            </tbody>
+            <tr>
+              <td><input class="checkbox" type="checkbox"></td>
+              <td> </td>
+              <td ><h3 class = "item-name"><strong>Grand-Total</strong></h3></td>
+              <td ><h3></h3></td>
+              <td ><h3></h3></td>
+              <td class="grand-total"><h3><strong>$0</strong></h3></td>
+              
+          </tr>
+        </table>
+    </div>
+
+    
+      <script src = '/script.js'></script>
+</body>
+</html>
